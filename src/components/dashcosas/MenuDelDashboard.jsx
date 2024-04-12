@@ -64,8 +64,8 @@ const MenuDelDashboard = () => {
     return(
         <div className=' flex flex-col gap-10 mt-10 ml-11 p-8 w-80 border '>
             {links.map(link => (
-                <li>
-                    <Link key={link.nombre} className={`${ pathName === link.href ? "bg-orange-500 p-4 rounded-lg w-60" : ""} p-4 w-60 h-36` } href={link.href} >{link.label} </Link>
+                <li key={link.nombre}>
+                    <Link  className={`${ pathName === link.href ? "bg-orange-500 p-4 rounded-lg w-60" : ""} p-4 w-60 h-36` } href={link.href} >{link.label} </Link>
                 </li>
             ))}
         </div>
