@@ -6,8 +6,8 @@ export default function Home() {
        <Image
        src="https://i.ibb.co/CmB17g7/image-2024-01-03-T012359-653.png"
        alt='foto-home'
-       width={1500}
-       height={1500}
+       width={700}
+       height={700}
        />
     </div>
   )
