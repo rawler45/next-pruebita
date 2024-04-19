@@ -15,6 +15,10 @@ const links = [
     {
         nombre: "Dashboard",
         path: "/dashboard/curriculum"
+    },
+    {
+        nombre: "Posts",
+        path: "/posts"
     }
 ]
 
